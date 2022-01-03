@@ -1,26 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <the-fullpage></the-fullpage>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheFullpage from "./components/layout/TheFullpage.vue";
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    TheFullpage,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  font-family: "Noto Sans cjk tc";
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
 }
 </style>
