@@ -1,5 +1,12 @@
 <template>
-  <a :href="link" class="card">
+  <a v-if="link" :href="link" class="card">
+    <img :src="image" alt="" />
+    <figcaption>
+      <div class="caption-title">{{ title }}</div>
+      <div class="caption">{{ caption }}</div>
+    </figcaption>
+  </a>
+  <a v-if="!link" class="card">
     <img :src="image" alt="" />
     <figcaption>
       <div class="caption-title">{{ title }}</div>

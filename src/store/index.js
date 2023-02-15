@@ -1,5 +1,7 @@
 import { createStore } from "vuex";
 import imageVueCoach from "./../../public/assets/vue coach.jpg";
+import imageArchive from "./../../public/assets/archive.png";
+import imageTpi from "./../../public/assets/tpi.png";
 import imageVtubersWeb from "./../../public/assets/vtubers.jpg";
 import imageNo15polariod from "./../../public/assets/no15polariod.jpg";
 import imagePersonalWeb from "./../../public/assets/personal web.jpg";
@@ -8,6 +10,7 @@ import imageCss from "./../../public/assets/css.png";
 import imageJavascript from "./../../public/assets/javascript.png";
 import imageBootstrap from "./../../public/assets/bootstrap.png";
 import imageVue from "./../../public/assets/vue.png";
+import imageVuetify from "./../../public/assets/vuetify.png";
 import imageGit from "./../../public/assets/git.png";
 
 import imagePs from "./../../public/assets/ps.png";
@@ -46,25 +49,30 @@ export default createStore({
         biographyBtn: "查看自傳內容",
       },
       name: "陳 緯 僑",
-      about: `本人畢業於交大傳播系，畢業後從事文案、圖卡設計與社群行銷約兩年，具視覺設計與影像處理能力。為求更廣出路，去年決定轉職，先後參加資策會JAVA班，並家自學前端程式，未來有志朝前端工程師的職涯之路發展。`,
+      about: `目前擔任昕力資訊前端工程師，以Vue框架開發為主，過去亦有平面設計、個人接案的實務經驗。期望自己能在專案開發中，持續精進，成為一位專業優質的工程師`,
       education: [
         "國立交通大學 傳播系 (2018畢)",
         "比利時布魯塞爾自由大學 交換生",
         "國立台中第一高級中學",
       ],
       jobs: [
-        { job: "自學前端程式+文案圖卡設計接案", period: "(2021 6月~)" },
-        { job: "新竹市市長候選人服務處 影音/攝影助理", period: "(2020~2021)" },
+        { job: "昕力資訊前端工程師", period: "(2022 3月~ )" },
+        {
+          job: "自學前端程式+文案圖卡設計接案",
+          period: "(2021 5月~2021 12月)",
+        },
+        { job: "新竹市議員服務處 影音製作與攝影師", period: "(2020~2021)" },
         { job: "中壢資策會(緯育Tibame)", period: "(2020)" },
-        { job: "接案──文案、圖卡設計、影音製作", period: "(2019~2020)" },
+        { job: "SOHO接案設計師", period: "(2019~2020)" },
       ],
       skills: {
         programming: [
+          imageVue,
+          imageVuetify,
           imageHtml5,
           imageCss,
           imageJavascript,
           imageBootstrap,
-          imageVue,
           imageGit,
         ],
         design: [imagePs, imageAi, imagePr, imageAe, imageAu],
@@ -72,16 +80,18 @@ export default createStore({
       },
       portfolio: [
         {
-          image: imageVueCoach,
-          title: "Vue Coach App(課程練習)",
-          caption: "查看教練資訊，並媒合教練與學員。",
-          link: "https://serser322.github.io/vue-coach/",
+          image: imageArchive,
+          title: "國發會檔案局-機關檔案管理資訊系統",
+          caption:
+            "提供檔案局與各機關，可對上傳的文件目錄進行審查、歸檔、上下載與管理",
+          link: false,
         },
         {
-          image: imageVtubersWeb,
-          title: "SpringFish Vtubers",
-          caption: "提供關於春魚工作室旗下Vtuber們的有趣小知識。",
-          link: "https://serser322.github.io/TheVtubers/",
+          image: imageTpi,
+          title: "昕力資產管理系統開發",
+          caption:
+            "供內部員工申請租借、轉租公司之軟硬體資產，以及讓管理者審批、管理、授權，以及處置公司資產。",
+          link: false,
         },
         {
           image: imageNo15polariod,
@@ -96,21 +106,21 @@ export default createStore({
           link: "#",
         },
       ],
-      biography: `我是陳緯僑，台中人，目前租住新竹。先前從事行銷與文案設計相關工作。曾擔任影音攝影助理，也曾做過接案SOHO族，接案內容包括文案設計、圖文創作、影片製作等等。
-      
-      工作中，除了專業本身，我也常需身兼業務，親自與客戶開會溝通討論，以了解對方需求，製作出符合期待的作品。
+      biography: `我是陳緯僑，台中人，目前住在新竹市，已在昕力資訊擔任前端工程師一年。
+
+      過去從事行銷與文案設計相關工作。曾擔任影音攝影助理，也曾做過接案SOHO族，接案內容包括文案設計、圖文創作、影片製作等等；工作中，除了專業本身，我也常需身兼業務，親自與客戶開會溝通討論，以了解對方需求，製作出符合期待的作品。
 
       隨著工作經歷與疫情影響，我發覺文案與圖卡設計的專業發展有限，因此決定學習程式，並結合自身之設計與行銷經驗，轉職軟體工程師，提高自身專業與未來發展性。
 
       因此，我在去年參加中壢資策會(現緯育Tibame)的「JAVA軟體工程師就業養成班」，半年密集式學習程式。在學習和專題開發的過程中，我發覺相較於後端功能，自己對於前端的畫面反而較有興趣，也較為擅長，因此在結訓後，決定以前端工程師為職涯發展。
 
-      後來在家自學前端程式設計，包括Javascript與Vue框架，並結合自己的興趣，製作了「15號拍立得產生器」、「Vtuber簡介網」等side project，其中「15號拍立得產生器」更上傳到個人Twitter與15號Vtuber的Discord，分享給其他粉絲使用，快速製作回覆用梗圖，受到不少人歡迎。
+      後來在家自學前端程式設計，包括Javascript與Vue框架，並結合自己的興趣，製作了「15號拍立得產生器」、「個人網站」等side project，其中「15號拍立得產生器」更上傳到個人Twitter與15號Vtuber的Discord，分享給其他粉絲使用，快速製作回覆用梗圖，受到不少人歡迎。
 
-      期許自己在轉換跑道後，能在新的領域中，發揮自己原有專長與所學，持續精進，創造價值！`,
+      隨後，我進入昕力資訊擔任前端工程師。我主要以Vue框架進行開發，先後參與了「國發會檔案局-機關檔案管理資訊系統」、「昕力資產管理系統」等專案。藉由在團隊合作中，以及大型專案的實務開發裡，我從中學到了許多技術、開發工具、解決問題的方式，並累積了不少經驗，也從中感受到了自己技術的提升，但同時也仍感受到自己的不足之處，須保持學習，持續精進自己。
+
+      期許自己在未來，能發揮自己原有專長與所學，精進不輟，創造價值，成為一名優秀的前端工程師！`,
       contact: [
-        { icon: "lni-phone", content: "0938-110675" },
-        { icon: "lni-map-marker", content: "新竹市東區竹蓮街163號" },
-        { icon: "lni-envelope", content: "joess.cts02@g2.nctu.edu.tw" },
+        { icon: "lni-envelope", content: "www322.joe@gmail.com" },
         {
           icon: "lni-github-original",
           content: "https://github.com/serser322",
