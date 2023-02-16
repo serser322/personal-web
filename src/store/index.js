@@ -1,8 +1,6 @@
 import { createStore } from "vuex";
-import imageVueCoach from "./../../public/assets/vue coach.jpg";
 import imageArchive from "./../../public/assets/archive.png";
 import imageTpi from "./../../public/assets/tpi.png";
-import imageVtubersWeb from "./../../public/assets/vtubers.jpg";
 import imageNo15polariod from "./../../public/assets/no15polariod.jpg";
 import imagePersonalWeb from "./../../public/assets/personal web.jpg";
 import imageHtml5 from "./../../public/assets/html5.png";
@@ -49,7 +47,7 @@ export default createStore({
         biographyBtn: "查看自傳內容",
       },
       name: "陳 緯 僑",
-      about: `目前擔任昕力資訊前端工程師，以Vue框架開發為主，過去亦有平面設計、個人接案的實務經驗。期望自己能在專案開發中，持續精進，成為一位專業優質的工程師`,
+      about: `畢業於交通大學傳播系。目前擔任昕力資訊前端工程師，以Vue框架開發為主，過去亦有平面設計、個人接案的實務經驗。期望自己能在專案開發中，持續精進，成為一位專業優質的工程師`,
       education: [
         "國立交通大學 傳播系 (2018畢)",
         "比利時布魯塞爾自由大學 交換生",
@@ -90,7 +88,7 @@ export default createStore({
           image: imageTpi,
           title: "昕力資產管理系統開發",
           caption:
-            "供內部員工申請租借、轉租公司之軟硬體資產，以及讓管理者審批、管理、授權，以及處置公司資產。",
+            "內部員工可申請租借、轉租公司之軟硬體資產；管理者可審批、授權申請，及管理資產。",
           link: false,
         },
         {
@@ -144,7 +142,7 @@ export default createStore({
         biographyBtn: ">> Read biography",
       },
       name: "Chen Wei-Chiao",
-      about: `I used to study mass communication in NCTU. To get a better career achievement, I decided to learned programming. Besides learnd Java at tutoring center and front-end programming on Udemy, I also builded some webs by myself. I wish I can be a professional front-end developer in the future.`,
+      about: `I used to study mass communication in NCTU. Now, I'm a frontend developer in TPI sortware and develop with Vue framework. I also was a graph design freelancer few years ago. Hope I can imporve myself continueously, and become an excellent frontend developer one day`,
       education: [
         "National Chiao Tung University of Mass Communication (2018)",
         "Exchange study at Free University of Brussels",
@@ -152,11 +150,14 @@ export default createStore({
       ],
       jobs: [
         {
-          job: "Learning js & Vue.js / Freelance designer",
-          period: "(2021 Jun. ~ now)",
+          job: 'Frontend developer in TPI software', period:"(2022 March ~ now )"
         },
         {
-          job: "Photography and personal assistant for mayor candidate of Hsinchu city",
+          job: "Learning js & Vue.js / Freelance graph designer",
+          period: "(2021 Jun. ~ 2021 Dec.)",
+        },
+        {
+          job: "Photography and personal assistant for city councilor of Hsinchu city",
           period: "(2020 ~ 2021)",
         },
         {
@@ -182,18 +183,18 @@ export default createStore({
       },
       portfolio: [
         {
-          image: imageVueCoach,
-          title: "Vue Coach App (course practice)",
+          image: imageArchive,
+          title: "Archives management and infomation system of National Archives Administration (NAA)",
           caption:
-            "User can check couches' information, and contact with the couch.",
-          link: "https://serser322.github.io/vue-coach/",
+            `officers of public agencies and members of NAA can review, record, upload, download and manage national archieves.`,
+          link: false,
         },
         {
-          image: imageVtubersWeb,
-          title: "SpringFish Vtubers web",
+          image: imageTpi,
+          title: "TPI Assets management system",
           caption:
-            "User can get interest information of SpringFish studio's vtubers",
-          link: "https://serser322.github.io/TheVtubers/",
+            "TPI staff can apply for renting, trans-renting assets. Administors can review, authorize application, and manage assets.",
+          link: false,
         },
         {
           image: imageNo15polariod,
@@ -210,25 +211,21 @@ export default createStore({
           link: "#",
         },
       ],
-      biography: `My name is Wei Chiao Chen, I come from Taichung, and live in Hsinchu city now.
+      biography: `My name is Wei Chiao Chen, I come from Taichung, and live in Hsinchu city now. I have been a frontend developer in TPI software for one year.
 
-    I used to work as a photographer and personal asistant, taking and editing photos for my boss. I also worked as a freelancer 2 years ago, taking the cases about designing social media articles, making post images, and making short videos. In addition to the works of design, being a freelancer, I also had to frequently contact with customers, even joined their meeting and discussion, to actually understand what they need.
+I used to work as a photographer and personal asistant, taking and editing photos for my boss. I also worked as a freelancer 2 years ago, taking the cases about designing social media articles, making post images, and making short videos. In addition to the works of design, being a freelancer, I also had to frequently contact with customers, even joined their meeting and discussion, to actually understand what they need. 
 
-    After working for a few years, I found that if I want to have a better career achievement, I have to learn more skills. So, I decided to learn programming, learn how to build a website. Programming are not only useful and powerful skills nowadays, but also can combine with my graphic design experience.
+After working for a few years, I found that if I want to have a better career achievement, I have to learn more skills. So, I decided to learn programming, learn how to build a website. Programming are not only useful and powerful skills nowadays, but also can combine with my graphic design experience. 
 
-    Therefore, I enrolled in Institute for Information Industry (III) to learn JAVA programming and build structure coding knowledge. After more than 6 months intensive training, I built a final project (shopping website) with my class teammates. Although that website is not much perfect, it’s my first time building a website, this achievement really made me excited and inspired me.
+Therefore, I enrolled in Institute for Information Industry (III) to learn JAVA programming and build structure coding knowledge. After more than 6 months intensive training, I built a final project (shopping website) with my class teammates. Although that website is not much perfect, it’s my first time building a website, this achievement really made me excited and inspired me.
 
-    In addition to coding JAVA in III, I also learned front-end languages from Udemy course, including html, css, javascript and vue 3. Out of fun, I built 2 side projects: “No.15 vtuber polaroid generator” and “Spring-fish Vtubers Web” for my favorite vtubers. And I also shared “No.15 vtuber polaroid generator” to the vtuber and thier fans, many fans used this web to create meme images. it's very interesting.
+In addition to coding JAVA in III, I also learned frontend languages from Udemy course, including html, css, javascript and vue 3. Out of fun, I built 2 side projects: “No.15 vtuber polaroid generator” and “Personal Web” for my favorite vtubers. And I also shared “No.15 vtuber polaroid generator” to the vtuber and thier fans, many fans used this web to create meme images. it’s very interesting.
 
-    Hope after I switch the job, I can contribute my coding ability and design knowlege to the products. And continue learning, enjoy programming.`,
+I have been a frontend developer in TPI sortware since last year. I used Vue framework, and I developed 2 projects, like "Archives management and infomation system of National Archives Administration", "TPI Assets management system". Working with team and programming in these big project, made me learn a lot of useful technique, development tools, and finding the way of resolving problems. The developement experiences not only improve my programming skills,  but also let me realize that I still have to practice and learn continuously.
+
+Hope in the future, I can contribute my coding ability and design knowlege to the products. And continue learning, enjoy programming. `,
       contact: [
-        { icon: "lni-phone", content: "0938-110675" },
-        {
-          icon: "lni-map-marker",
-          content:
-            "No. 163, Zhulian St., East Dist., Hsinchu City 300 , Taiwan",
-        },
-        { icon: "lni-envelope", content: "joess.cts02@g2.nctu.edu.tw" },
+        { icon: "lni-envelope", content: "www322.joe@gmail.com" },
         {
           icon: "lni-github-original",
           content: "https://github.com/serser322",
