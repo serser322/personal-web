@@ -171,11 +171,12 @@ export default createStore({
       ],
       skills: {
         programming: [
+          imageVue,
+          imageVuetify,
           imageHtml5,
           imageCss,
           imageJavascript,
           imageBootstrap,
-          imageVue,
           imageGit,
         ],
         design: [imagePs, imageAi, imagePr, imageAe, imageAu],
@@ -184,16 +185,16 @@ export default createStore({
       portfolio: [
         {
           image: imageArchive,
-          title: "Archives management and infomation system of National Archives Administration (NAA)",
+          title: "Archives management system of National Archives Administration (NAA)",
           caption:
-            `officers of public agencies and members of NAA can review, record, upload, download and manage national archieves.`,
+            `Naa's staff and officers of public agencies can review, record, upload, download and manage national archieves.`,
           link: false,
         },
         {
           image: imageTpi,
           title: "TPI Assets management system",
           caption:
-            "TPI staff can apply for renting, trans-renting assets. Administors can review, authorize application, and manage assets.",
+            "TPI staff can apply for renting, sublet assets. Administors can review, authorize application, and manage assets.",
           link: false,
         },
         {
