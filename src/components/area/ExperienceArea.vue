@@ -15,9 +15,9 @@
         </div>
       </div>
       <div class="job-area">
-        <base-title
-          ><template #title-white
-            ><i class="lni lni-briefcase"></i> {{ historyHeadline.jobs }}
+        <base-title>
+          <template #title-white>
+            <i class="lni lni-briefcase"></i> {{ historyHeadline.jobs }}
           </template>
         </base-title>
         <div class="job">
@@ -82,13 +82,11 @@ export default {
   .education-area,
   .job-area {
     font-size: 22px;
+    padding-right: 30px;
   }
 }
 
 @media (min-width: 768px) {
-  .experience-area {
-  }
-
   .experience-area > div {
     display: grid;
     grid-template: "a" 1fr / 1fr 1fr;
@@ -101,6 +99,21 @@ export default {
   .job-area {
     margin-top: 0px;
     margin-left: 40px;
+  }
+
+  .job {
+    max-height: 75vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .job::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 4px;
+    background: rgb(70, 94, 122);
+  }
+  .job::-webkit-scrollbar-thumb {
+    background: lightsteelblue;
+    border-radius: 4px;
   }
 
   .education div {

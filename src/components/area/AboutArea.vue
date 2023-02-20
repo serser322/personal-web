@@ -46,6 +46,24 @@ export default {
   }
 }
 
+@media (min-width: 768px) {
+  .about {
+    max-height: 20vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .about::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+  }
+  .about::-webkit-scrollbar-thumb {
+    background: rgb(208, 208, 208);
+    border-radius: 4px;
+  }
+}
+
 @media (min-width: 992px) {
   .about-area {
     display: flex;

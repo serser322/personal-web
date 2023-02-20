@@ -54,6 +54,23 @@ export default {
   }
 }
 
+@media (min-width: 768px) {
+  .portfolio {
+    max-height: 77vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .portfolio::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 4px;
+    background: rgb(70, 94, 122);
+  }
+  .portfolio::-webkit-scrollbar-thumb {
+    background: lightsteelblue;
+    border-radius: 4px;
+  }
+}
+
 @media (min-width: 992px) {
   .portfolio-area {
     display: flex;

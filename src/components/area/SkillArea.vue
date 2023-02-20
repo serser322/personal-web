@@ -3,7 +3,7 @@
     <div>
       <base-title>{{ data.headline.skills }}</base-title>
       <div>
-        <div>
+        <div class="skill-area-container">
           <div class="skill-group">
             <div class="subtitle">
               <i class="lni lni-display-alt"></i>{{ abilities.programming }}
@@ -134,6 +134,21 @@ export default {
 }
 
 @media (min-width: 768px) {
+  .skill-area-container {
+    max-height: 74vh;
+    overflow-y: auto;
+  }
+
+  .skill-area-container::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 4px;
+    background: rgb(227, 219, 187);
+  }
+
+  .skill-area-container::-webkit-scrollbar-thumb {
+    background: rgb(255, 205, 98);
+    border-radius: 4px;
+  }
 }
 
 @media (min-width: 992px) {
