@@ -130,7 +130,7 @@ export default createStore({
         about: "About",
         experience: "Experience",
         skills: "Skills",
-        portfolio: "Portfolio",
+        portfolio: "Projects", // 修正標題
         biography: "Biography",
         contact: "Contact",
         history: { education: "Education", jobs: "Jobs experience" },
@@ -142,7 +142,7 @@ export default createStore({
         biographyBtn: ">> Read biography",
       },
       name: "Chen Wei-Chiao",
-      about: `I used to study mass communication in NCTU. Now, I'm a frontend developer in TPI sortware and develop with Vue framework. I also was a graph design freelancer few years ago. Hope I can imporve myself continueously, and become an excellent frontend developer one day`,
+      about: `I used to study mass communication in NCTU. Now, I'm a frontend developer in TPI software and develop with Vue framework. I also had the experience of graphic design and videos making. Hope I can improve myself continuously, and become an excellent frontend developer one day.`,
       education: [
         "National Chiao Tung University of Mass Communication (2018)",
         "Exchange study at Free University of Brussels",
@@ -155,7 +155,7 @@ export default createStore({
         },
         {
           job: "Learning js & Vue.js / Freelance graph designer",
-          period: "(2021 May. ~ 2021 Dec.)",
+          period: "(2021 May ~ 2021 Dec.)",
         },
         {
           job: "Photography and personal assistant for city councilor of Hsinchu city",
@@ -209,23 +209,25 @@ export default createStore({
           image: imagePersonalWeb,
           title: "Personal web",
           caption:
-            "My personal website. Display my resume, portfolio and biography.",
+            "My personal website. Display my resume, projects and biography.",
           link: "#",
         },
       ],
       biography: `My name is Wei Chiao Chen, I come from Taichung, and live in Hsinchu city now. I have been a frontend developer in TPI software for one year.
 
-I used to work as a photographer and personal asistant, taking and editing photos for my boss. I also worked as a freelancer 2 years ago, taking the cases about designing social media articles, making post images, and making short videos. In addition to the works of design, being a freelancer, I also had to frequently contact with customers, even joined their meeting and discussion, to actually understand what they need. 
-
-After working for a few years, I found that if I want to have a better career achievement, I have to learn more skills. So, I decided to learn programming, learn how to build a website. Programming are not only useful and powerful skills nowadays, but also can combine with my graphic design experience. 
-
-Therefore, I enrolled in Institute for Information Industry (III) to learn JAVA programming and build structure coding knowledge. After more than 6 months intensive training, I built a final project (shopping website) with my class teammates. Although that website is not much perfect, it’s my first time building a website, this achievement really made me excited and inspired me.
-
-In addition to coding JAVA in III, I also learned frontend languages from Udemy course, including html, css, javascript and vue 3. Out of fun, I built 2 side projects: “No.15 vtuber polaroid generator” and “Personal Web” for my favorite vtubers. And I also shared “No.15 vtuber polaroid generator” to the vtuber and thier fans, many fans used this web to create meme images. it’s very interesting.
-
-I have been a frontend developer in TPI sortware since last year. I used Vue framework, and I developed 2 projects, like "Archives management and infomation system of National Archives Administration", "TPI Assets management system". Working with team and programming in these big project, made me learn a lot of useful technique, development tools, and finding the way of resolving problems. The developement experiences not only improve my programming skills,  but also let me realize that I still have to practice and learn continuously.
-
-Hope in the future, I can contribute my coding ability and design knowlege to the products. And continue learning, enjoy programming. `,
+      I used to work as a photographer and asistant for a Hsinchu city councilor, taking and editing photos for him. I also worked as a freelancer 2 years ago. I wrote social media articles, making post images, and making short videos for my customers. In addition to the works of design, being a freelancer, I also had to frequently communicate with those customers, even joined their meeting and discussion, to actually understand what they need. 
+      
+      After working for a few years, I found that if I want to have a better career achievement, I have to learn more skills. So, I decided to learn programming, learn how to build a website. Programming are not only useful and powerful skills nowadays, but also can combine with my graphic design experience. 
+      
+      Therefore, I enrolled in Institute for Information Industry (III) to learn JAVA programming and build structure coding knowledge. After more than 6 months intensive training, I built a final project (shopping website) with my class teammates. Although that website is not much perfect, it’s my first time to build a website, this experience really made me excited and inspired me.
+      
+      In addition to learning JAVA , I also learned frontend languages from Udemy course, including html, css, javascript and vue 3. Out of fun, I built 2 side projects: “Vtuber No.15  polaroid generator” and “Personal Web” for my favorite vtubers. And I also shared “Vtuber No.15 polaroid generator” to the vtuber and thier fans, many fans used this website to create meme images. it’s very interesting.
+      
+      I have been a frontend developer in TPI sortware since last year. I used Vue framework, and I developed 2 projects: "Archives management and infomation system of National Archives Administration" and "TPI Assets management system". Working with team and programming in these big projects, made me learn a lot of useful technique, development tools, and finding the way of resolving problems. During the developement, I found there was a definite improvement in my programming skills,  but I also found some of my professional knowledge is not enough, I still have to practice and learn continuously.
+      
+      Recently, I am developing a side project that I called it ‘ Vtuber Dada’s quote generator ’. It’s a website can let vtuber Dada’s fans make her quote image and download it. Not only I have to design the website appearance and user-friendly interface, but also type the code of functions. Hope the vtuber Dada and her fans will love this website after I accomplish it.
+      
+      Being a frontend developer is interesting , but also challenging. I hope I can contribute my coding ability and design knowlege to the team and the products. And continue learning, enjoy programming !`,
       contact: [
         { icon: "lni-envelope", content: "www322.joe@gmail.com" },
         {
