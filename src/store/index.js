@@ -150,11 +150,12 @@ export default createStore({
       ],
       jobs: [
         {
-          job: 'Frontend developer in TPI software', period:"(2022 March ~ now )"
+          job: "Frontend developer in TPI software",
+          period: "(2022 Mar. ~ now )",
         },
         {
           job: "Learning js & Vue.js / Freelance graph designer",
-          period: "(2021 Jun. ~ 2021 Dec.)",
+          period: "(2021 May. ~ 2021 Dec.)",
         },
         {
           job: "Photography and personal assistant for city councilor of Hsinchu city",
@@ -185,9 +186,9 @@ export default createStore({
       portfolio: [
         {
           image: imageArchive,
-          title: "Archives management system of National Archives Administration (NAA)",
-          caption:
-            `Naa's staff and officers of public agencies can review, record, upload, download and manage national archieves.`,
+          title:
+            "Archives management system of National Archives Administration (NAA)",
+          caption: `Naa's staff and officers of public agencies can review, record, upload, download and manage national archieves.`,
           link: false,
         },
         {
