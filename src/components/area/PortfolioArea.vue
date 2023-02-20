@@ -56,7 +56,8 @@ export default {
 
 @media (min-width: 768px) {
   .portfolio {
-    max-height: 77vh;
+    padding: 10px 0;
+    max-height: 76vh;
     overflow-y: auto;
     overflow-x: hidden;
   }
